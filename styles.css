@@ -1,0 +1,49 @@
+body{
+    background-image: url("https://cdn.pixabay.com/photo/2017/08/23/09/12/blue-2672007_1280.jpg");
+}
+
+h1{
+    font-size: 135px;
+    color: rgb(255, 60, 0);
+    text-align: center;
+}
+
+h2 {
+    font-size: 45px;
+    text-align: center;
+    color:rgb(208, 0, 255)
+}
+nav {
+    font-size: 25px;
+    color: red;
+    margin-left: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 50%;
+    padding-bottom: 50px;
+
+}
+
+p:hover {
+  font-size: 45px;
+  color: rgb(0, 255, 0);
+  transition: 3s;
+  cursor: pointer;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+footer {
+    font-size: 20px;
+   margin-left: 1000px;
+}
+
+button {
+    box-shadow: 0 0 25px #fb6febd3;
+}
